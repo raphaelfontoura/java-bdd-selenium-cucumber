@@ -33,8 +33,7 @@ public class DBController {
 	
 	@Autowired
 	PasswordEncoder encoder;
-	
-	@GetMapping("/db")
+	@GetMapping("/delete")
 	public ResponseEntity<String> deleta() {
 		lances.deleteAll();
 		leiloes.deleteAll();
