@@ -31,7 +31,7 @@ public class PropondoLanceSteps {
     }
 
     @Quando("propoe um lance ao leilao")
-    public void quanto_propoe_o_lance() {
+    public void quando_propoe_o_lance() {
         this.leilao.propoe(lance);
     }
 
@@ -59,5 +59,14 @@ public class PropondoLanceSteps {
         Assert.assertEquals(this.lista.get(1).getValor(), leilao.getLances().get(1).getValor());
     }
 
+    @Dado("um lance invalido de {double} reais")
+    public void um_lance_invalido_de_reais(Double valor) {
+        lance =  new Lance(new BigDecimal(valor));
+    }
+
+    @Entao("o lance nao eh aceito")
+    public void o_lance_nao_eh_aceito() {
+        Assert.assertEquals(0, leilao.getLances().size());
+    }
 
 }

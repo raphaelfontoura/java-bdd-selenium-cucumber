@@ -12,3 +12,14 @@ Cenario: Propondo varios lances validos
     E um lance de 15.0 reais do usuario "beltrano"
     Quando propoe varios lances ao leilao
     Entao os lances sao aceitos
+
+Esquema do Cenario: Propondo um lance invalido
+#    se for passar string, como <nomeUsuario> deve passar em aspas simples -> '<nomeUsuario>'
+    Dado um lance invalido de <valor> reais
+    Quando propoe um lance ao leilao
+    Entao o lance nao eh aceito
+
+    Exemplos:
+        | valor|
+        |     0|
+        |    -1|
