@@ -31,3 +31,11 @@ Cenario: Propondo varios lances validos
         | 15.0  | beltrano      |
     Quando propoe varios lances ao leilao
     Entao o segundo lance nao eh aceito
+
+Cenario: Propondo varios lances validos
+    Dado varios lances validos
+        | 10.0  |
+        | 15.0  |
+        | 17.0  |
+    Quando propoe varios lances ao leilao
+    Entao todos os lances sao aceitos

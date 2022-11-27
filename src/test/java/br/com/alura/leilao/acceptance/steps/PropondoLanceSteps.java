@@ -89,4 +89,17 @@ public class PropondoLanceSteps {
         Assert.assertEquals(this.lista.get(0).getValor(), leilao.getLances().get(0).getValor());
     }
 
+    @Dado("varios lances validos")
+    public void varios_lances_validos(List<String> valores) {
+        for (String valor: valores) {
+            System.out.print(valor);
+        }
+    }
+
+    @Entao("todos os lances sao aceitos")
+    public void todos_os_lances_sao_aceitos() {
+        Assert.assertTrue(true);
+    }
+
+
 }
