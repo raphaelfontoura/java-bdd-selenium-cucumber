@@ -23,3 +23,11 @@ Esquema do Cenario: Propondo um lance invalido
         | valor|
         |     0|
         |    -1|
+
+Cenario: Propondo varios lances validos
+    Dado dois lances
+        | valor | nomeUsuario   |
+        | 10.0  | beltrano      |
+        | 15.0  | beltrano      |
+    Quando propoe varios lances ao leilao
+    Entao o segundo lance nao eh aceito
