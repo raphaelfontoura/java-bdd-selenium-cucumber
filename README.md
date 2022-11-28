@@ -26,6 +26,8 @@ Caso rode os testes do selenium em chrome ou firefox, necessário verificar as v
 
 ### Tecnologias utilizadas:
 
+>Cucumber
+
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
 
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
@@ -34,4 +36,3 @@ Caso rode os testes do selenium em chrome ou firefox, necessário verificar as v
 
 ![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 
-![Cucumber](https://github.com/cucumber/language-service/actions/workflows/test-javascript.yml/badge.svg)
