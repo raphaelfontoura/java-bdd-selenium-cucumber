@@ -34,5 +34,4 @@ Caso rode os testes do selenium em chrome ou firefox, necessário verificar as v
 
 ![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 
-[![Cucumber](https://github.com/cucumber/language-service/actions/workflows/test-javascript.yml/badge.svg)](https://github.com/cucumber/language-service/actions/workflows/test-javascript.yml)
-
+![Cucumber](https://github.com/cucumber/language-service/actions/workflows/test-javascript.yml/badge.svg)
