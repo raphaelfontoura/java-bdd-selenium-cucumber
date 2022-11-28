@@ -50,7 +50,7 @@ public class LeiloesPage {
 		return new DetalhesDoLeilaoPage(driver);
 	}
 
-	public AlterarLeilaoPage visitaPaginaParaAltearLeilao() {
+	public AlterarLeilaoPage visitaPaginaParaAlterarLeilao() {
 		driver.findElement(By.linkText("editar")).click();
 		return new AlterarLeilaoPage(driver);
 	}

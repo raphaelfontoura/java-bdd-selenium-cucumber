@@ -37,7 +37,7 @@ public class LeiloesE2ETest extends E2ETestBase{
 	
 	@Test
 	public void deveEditarUmLeilao() {
-		AlterarLeilaoPage novoLeilaoPage = leiloesPage.visitaPaginaParaAltearLeilao();
+		AlterarLeilaoPage novoLeilaoPage = leiloesPage.visitaPaginaParaAlterarLeilao();
 		String nome = "Commodore Amiga";
 		String valor = "899.90";
 		String data = "04/08/2020";
